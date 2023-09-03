@@ -151,7 +151,7 @@ data:
     coordinates: -1339,-1511,296,-2587
 ```
 
-Use the app to send the vacuum to a custom area and afterwards search your logs for `Last custom area values (x1,y1,x2,y2):` entries to get the coordinates.
+Use the app to send the vacuum to a custom area and afterwards search your logs for `{"type":"customArea","value":"x1,y1,x2,y2"}` entries to get the coordinates.
 
 ```yaml
 # Set Water Level
